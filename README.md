@@ -1,2 +1,2 @@
 # Autopilot
-Remote car control system based on linear servos and a stepper motor. The control is performed using the EPS32-WROOM and the auxiliary MCU ATmega328P.
+Remote car control system based on linear servos and a stepper motor. The control is performed using the EPS32-WROOM and the auxiliary MCU ATmega328P. It has a connection for 3 laser distance sensors. DM556 stepper motor driver which is controlled by a separate ESP32 WROOM core. The Atmega328P is responsible for controlling the linear servos, which receives commands via UART from the ESP32.
